@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz Example</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Tabs or Spaces?</h1>
+		<p>Find out which whitespace you prefer based on how you listen to music.</p>
+	</header>
+
+	<main>
+
+		<h2>Which collection of songs do you prefer?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/album.jpg" alt="turntable playing a vinyl record">
+        <br>
+        <button id="q1a1">Album</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/playlist.jpg" alt="person listening to a playlist on a tablet">
+        <br>
+        <button id="q1a2">Playlist</button>
+      </div>
+
+    </div> 
+    
+    <h2>What order do you listen to songs in?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/album-stack.jpg" alt="stack of vinyl records">
+        <br>
+        <button id="q2a1">Album order</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/shuffle.png" alt="iPod Shuffle">
+        <br>
+        <button id="q2a2">Shuffle</button>
+      </div>
+
+    </div> 
+    
+    <h2>Do you prefer a deep dive into an artist's ouevre or are you more of a sampler?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/diver.jpg" alt="old dive suit">
+        <br>
+        <button id="q3a1">Deep diver</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/sampler.jpg" alt="DJ sampling rig">
+        <br>
+        <button id="q3a2">Sampler</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">You are a...</h2>
+    <button id="restart">Restart</button>
+    
+  </main>
+  </body>
+</html>
